@@ -1,1 +1,52 @@
-test file
+  Id CommandLine
+  -- -----------
+   1 try { . "c:\Users\HP\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}   
+   2 git clone git@github.com:aneeshakallungal/myFirst.git
+   3 git status
+   4 cd myFirst
+   5 clear
+   6 git status
+   7 git branch
+   8 git branch feature
+   9 git branch
+  10 git checkout feature
+  11 git branch
+  12 clear
+  13 git add .
+  14 git commit -m "new feature added"
+  15 git branch
+  16 git status
+  17 git checkout main
+  18 git branch
+  19 git status
+  20 git add .
+  21 git commit -m "files deleted"
+  22 clear
+  23 git checkout feature
+  24 git branch
+  25 git checkout main
+  26 git checkout feature
+  27 git branch test
+  28 git branch
+  29 git checkout test
+  30 git branch
+  31 git status
+  32 git add .
+  33 git commit -m "Test Branch Changed"
+  34 git checkout feature
+  35 git push
+  36 git push -u origin main
+  37 git push
+  38 git push -u origin feature
+  39 git push -u origin test
+  40 clear
+  41 git status
+  42 git branch
+  43 git checkout test
+  44 git checkout main
+  45 git merge test
+  46 git status
+  47 git add .
+  48 git commit -m "dev completed"
+  49 git branch
+  50 git push -u origin main
